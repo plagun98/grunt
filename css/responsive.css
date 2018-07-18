@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+@media (max-width: 1199px){
+	ul.ul-menu li {
+    float: left;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+.block1 .nav-tabs > li > a {
+	font-size:16px;
+	}
+.box-text {
+    line-height: normal;
+}
+	}
+
+@media (max-width: 991px){
+	ul.ul-menu li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.parent_menu .navbar-default .navbar-nav > li > a {
+    font-size: 12px;
+    color: #b2b2b2;
+}
+
+ul.ul-menu li {
+    text-align: left;
+    text-transform: uppercase;
+}
+.block1 .nav-tabs > li {
+    float: none;
+    margin-bottom: 0px;
+    border-bottom: solid 1px #fff;
+}
+.flex {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.box-image {
+    margin-right: 0;
+    border: solid 1px #cccccc;
+    margin-bottom: 13px;
+}
+.heading:before {
+    width: 41%;
+}
+.heading_our:before {
+    width: 38%;
+}
+.italic div {
+    padding-top: 7px;
+}
+	}
+@media (max-width: 767px){
+	ul.ul-menu li {
+    float: initial;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+	.parent_menu .navbar-header {
+		display:block;
+}
+.parent_menu.navbar {
+    background: #272954;
+}
+.parent_menu .navbar-default .navbar-brand {
+    color: #fff;
+}
+.parent_menu #bs-example-navbar-collapse-1 {
+    background: inherit;
+    border-top: inherit;
+    border-bottom: inherit;
+}
+.block-tab h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.block-tab h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.heading_our:before,
+.heading:before {
+    width: auto;
+}
+	}
+@media (max-width: 575px){
+	.logo img{
+		display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 25px;
+		}
+	.wrappre_search {
+    position: relative;
+    float: inherit;
+}
+.search{
+	max-width:100%;
+	}
+	}
+@media (max-width: 400px){
+	
+	}
+
+
